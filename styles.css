@@ -64,8 +64,19 @@ text-align:center;
     color:white;
     font-size:100px;
 }
+#about p {
+    text-align:center;
+    padding-top: 150px;
+    color:white;
+    font-size:100px;
+}
 
-
+#space1 div {
+    color:white;
+    text-align:center;
+    font-size:100px;
+    padding-top:160px;
+}
 
 
 
@@ -139,6 +150,7 @@ text-align:center;
     color:#291400;
     text-decoration: none;
 }
+
 
 
 
