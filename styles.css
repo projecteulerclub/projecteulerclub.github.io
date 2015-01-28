@@ -6,6 +6,13 @@
 .sourcesans{
     font-family: sourcesans, Arial;
 }
+@font-face {
+    font-family: exo;
+    src: url('fonts/exo.otf');
+}
+.exo{
+    font-family: exo, Arial;
+}
 body{
   margin:0;
   padding:0;
@@ -13,7 +20,7 @@ body{
 
 
 #home { 
-  background: url("img/computerandnotebooks.jpg") 50% 0 no-repeat fixed;
+  background: url("img/handlaptopuc.jpg") 50% 0 no-repeat fixed;
   -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -22,28 +29,41 @@ body{
   margin: 0 auto; 
     width: 100%; 
     max-width: 1920px; 
-    position: relative; 
-    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    position: relative;
 }
 #about { 
-  background: url("img/handlaptop.jpg") 50% 0 no-repeat fixed; 
+  background: url("img/computerandnotebooks.jpg") 50% 0 no-repeat fixed; 
   -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; 
   height: 1000px;
   margin: 0 auto; 
-    width: 100%; 
-    max-width: 1920px; 
-    position: relative; 
-    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    width: 100%;
+    position: relative;
 }
-
+#space1 {
+    width:100%;
+    height:500px;
+    background-color:white;
+    display:inline;
+    position:relative;
+}
 /* Introduction */
 
-#home article { background: url("../images/intro.png") no-repeat scroll center top transparent; height: 458px; position: absolute; text-indent: -9999px; top: 291px; width: 100%; }
+#home article {
+    text-align:center;
+    padding-top: 150px;
+    color:white;
+    font-size:100px;
+}
 
-#about article { background: url("../images/parallax.png") no-repeat scroll center top transparent; height: 458px; position: absolute; text-indent: -9999px; top: 291px; width: 100%; }
+#about article { 
+text-align:center;
+    padding-top: 150px;
+    color:white;
+    font-size:100px;
+}
 
 
 
